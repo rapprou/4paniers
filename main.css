@@ -1,0 +1,90 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font-family: system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 300px;
+    padding: 50px;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    background: none;
+
+}
+
+.panier {
+    display: grid;
+}
+
+.card {
+    background: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*---Media Queries --*/
+
+@media (max-width: 800px) {
+
+    #items {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        background: none;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+    }
+
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
