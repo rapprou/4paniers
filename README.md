@@ -1,1 +1,1 @@
-(img/cbd.jpeg)
+[PANIER](img/cbd.jpeg)
