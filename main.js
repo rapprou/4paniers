@@ -1,4 +1,4 @@
-//tous les functions sur mon pannier + DOM
+//Mise en place de toutes les functions sur mon pannier + DOM
 
         window.onload = function () {
             
