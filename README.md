@@ -1,1 +1,1 @@
-[PANIER](img/cbd.jpeg)
+[PANIER](https://tinyurl.com/y2fec9dp)
